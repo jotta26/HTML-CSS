@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 600px)" srcset="IMAGENS/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="IMAGENS/foto-m.png" type="Image/png"> 
+        <img src="IMAGENS/foto-g.png" alt="Imagem flexível">
+    </picture>
+
+    <h1>Reproduzindo Àudio</h1>
+
+    <p>vamos aprender a reproduzir áudios em HTML</p>
+    <audio preload="none" controls>
+        <source src="midia/Running It Down - Everet Almond.mp3" type="audio/mpeg">
+        <source src="midia/Running It Down - Everet Almond.org" type="audio/org">
+        <source src="midia/Running It Down - Everet Almond.wav" type="audio/wav">
+        <p>Se seu navegador não reconhcer, infelizmente seu navegador não reproduz áudio</p>
+    </audio>
+    <p>evite usar o (AUDIO.WAV) pois ele e muuito grande e não tanto recomendavel pois pesa muito</p>
+   
+</body>
+</html>

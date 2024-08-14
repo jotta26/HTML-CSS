@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseud element css</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: red;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+
+        }
+        a:active {
+            color: blue;
+        }
+        a::after {
+            content: '';
+            text-decoration: none;
+            font-weight: bold;
+            color:red;
+
+        }
+        .especial {
+            color:red;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Apresentão Pseud Element CSS</h1>
+    <ul>
+        <li class="especial"><a href="https://www.youtube.com/@jonnasgames2916" target="_blank">Meu Canal do youtube</a></li>
+
+        <li class="especial"><a href="https://www.linkedin.com/in/jonatas-almeida-cruz-ab4105321/" target="_blank">Meu Perfil Linkedin</a></li>
+
+        <li class="especial"><a href="https://github.com/jotta26" target="_blank">Meu perfil Github</a></li>
+    </ul>
+    
+</body>
+</html>
