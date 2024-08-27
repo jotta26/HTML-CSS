@@ -10,8 +10,9 @@
         }
 
         table {
-            width: 500px;
+            width: 700px;
             border-collapse: collapse;
+            margin: auto;
         }
 
         td, th{
@@ -20,29 +21,54 @@
         }
 
         thead, tfoot {
-            background-color: lightslategrey;
+            background-color: rgba(32, 35, 37, 0.788);
             color: white;
+        }
+
+        tbody {
+            font-weight: bold;
         }
 
         .num {
             text-align: right;
+            font-weight: bold;
+            
+        }
+
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: rgb(136, 154, 170);
+        }
+
+        h1 {
+            padding: 0px 0px 0px 55px;
+        }
+       
+        .center {
+            text-align: center;
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
+    <h1>Uso de Tabelas Grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Unidade federativa</th>
-                <th>População</th><th>okay</th>
+                <th>Estado</th>
+                <th>População</th>
+                <th>okay</th>
             </tr>
         </thead>
 
         <tfoot>
             <tr>
-                <th>População Total</th>
-                <td>0000000000</td>
-                <td>okay</td>
+                <th>Total de Habitantes</th>
+                <td class="num">0000000000</td>
+                <td class="center">okay</td>
             </tr>
         </tfoot>
 
@@ -50,100 +76,100 @@
             <tr>
                 <td>São Paulo</td>
                 <td class="num">45 973 190</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Minas Gerais</td>
                 <td class="num">21 322 692</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Rio de Janeiro</td>
                 <td class="num">17 219 679</td>
-                <td>ok
+                <td class="num">ok
                 </td>
             </tr>
             <tr>
                 <td>Bahia</td>
                 <td class="num">14 850 513</td>
-                <td>ok
+                <td class="num">ok
                 </td>
             </tr>
             <tr>
                 <td>Párana</td>
                 <td class="num">11 824 665</td>
-                <td>ok
+                <td class="num">ok
                 </td>
             </tr>
             <tr>
                 <Td>Rio Grande do Sul</Td>
                 <td class="num">11 229 915</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Pernambuco</td>
                 <td class="num">9 539 029</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Ceará</td>
                 <td class="num">9 233 656</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Pará</td>
                 <td class="num">8 664 306</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Santa Catarina</td>
                 <td class="num">8 058 447</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Goiás</td>
                 <td class="num">7 350 483</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Maranhão</td>
                 <td class="num">7 010 960</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Amazonas</td>
                 <td class="num">4 281 209</td>
-                <td>ok </td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Paraíba</td>
                 <td class="num">4 145 040</td>
-                <td>ok </td>
+                <td class="num">ok </td>
             </tr>
             <tr>
                 <td>Espírito Santo</td>
                 <td class="num">4 102 129</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Mato Grosso</td>
                 <td class="num">3 836 399</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Rio Grande do Norte</td>
                 <td class="num">3 446 071</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Piauí</td>
                 <td class="num">3 375 646</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
             <tr>
                 <td>Alagoas</td>
                 <td class="num">3 220 104</td>
-                <td>ok</td>
+                <td class="num">ok</td>
             </tr>
         </tbody>
     </table>
