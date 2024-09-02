@@ -4,15 +4,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 500px;
+        }
+        thead, th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        col.cnome {
+            background-image:linear-gradient( to left, orange, red)
+        }
+        col.csexo {
+            background-color: blueviolet;
+        }
+        col.cidade {
+            background-color: yellowgreen;
+        }
+        col.clugar {
+            background-image: linear-gradient(to right, orange, yellowgreen);
+        }
+    </style>
 </head>
 <body>
     <table>
+        <colgroup>
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="clugar">
+        </colgroup>
         <thead>
             <tr>
-                <th>Nome</th>
-                <th>sexo</th>
-                <th>idade</th>
-                <th>Lugar</th>
+                <th scope="col" class="cnome">Nome</th>
+                <th scope="col">sexo</th>
+                <th scope="col">idade</th>
+                <th scope="col">Lugar</th>
+            </tr>
+            <tr>
+                <td>Jonatas</td>
+                <td>M</td>
+                <td>24</td>
+                <td>Goiãnia</td>
+            </tr>
+            <tr>
+                <td>Débora</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Goiãnia</td>
+            </tr>
+            <tr>
+                <td>Eugênia</td>
+                <td>F</td>
+                <td>23</td>
+                <td>Goiãnia</td>
+            </tr>
+            <tr>
+                <td>Natannailde</td>
+                <td>F</td>
+                <td>42</td>
+                <td>Goiãnia</td>
             </tr>
         </thead>
     </table>
